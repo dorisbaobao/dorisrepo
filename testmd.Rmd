@@ -1,0 +1,21 @@
+---
+title: "testmd"
+output: html_document
+---
+## Data Science Specialization 
+
+* Uses R 
+* Nine courses 
+* Goes from raw data to data products
+```{r}
+temp <- data.frame(date = c(1, 2, 3), value = c(22, 2, 33))
+temp
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
